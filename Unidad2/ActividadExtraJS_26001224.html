@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adivinar número</title>
+
+  <style>
+    
+  </style>
+
+  
+</head>
+<body>
+  
+
+  <script>
+    var jugar = true;
+
+while (jugar == true) {
+
+  // numero aleatorio de la computadora 1 a 9 com math
+  var numeroComputadora = Math.floor(Math.random() * 9) + 1;
+
+  // pedir numero al usuario del 3 al 6
+  var numeroUsuario = parseInt(prompt("Ingrese un número entre 3 y 6"));
+
+  // Validar que este entre 3 y 6
+  while (numeroUsuario < 3 || numeroUsuario > 6) {
+    numeroUsuario = parseInt(prompt("Número inválido, ingrese un número entre 3 y 6"));
+  }
+
+  // Preguntar si es mayor menor o igual
+  var opcion = prompt(
+    "¿Escriba si su número es MAYOR, MENOR o IGUAL al de la computadora?"
+  );
+
+  // determinar el resultado real
+  var resultado = "";
+
+  if (numeroUsuario > numeroComputadora) {
+    resultado = "MAYOR";
+  }
+
+  if (numeroUsuario < numeroComputadora) {
+    resultado = "MENOR";
+  }
+
+  if (numeroUsuario == numeroComputadora) {
+    resultado = "IGUAL";
+  }
+
+  // Comparar la respuesta del usuario
+  if (opcion.toUpperCase() == resultado) {
+    alert(
+      "La computadora eligio " + numeroComputadora +
+      ", usted eligio " + numeroUsuario +
+      ". Su elección es " + resultado +
+      ". ¡Ha adivinado!"
+    );
+  } else {
+    alert(
+      "La computadora eligio " + numeroComputadora +
+      ", usted eligio " + numeroUsuario +
+      ". Su elección es " + resultado +
+      ". No adivinó."
+    );
+  }
+
+  // preguntar si quiere jugar otra vez
+  var respuesta = prompt("¿Desea jugar otra vez? SI o NO)");
+
+  if (respuesta.toUpperCase() != "SI") {
+    alert(
+      "Gracias por jugar " +
+      "Nombre: Julio Roberto Morales Serrano\n" +
+      "Carnet: 26001224 "
+    );
+    jugar = false;
+  }
+}
+
+  </script>
+</body>
+</html>
