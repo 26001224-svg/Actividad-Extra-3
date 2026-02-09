@@ -1,0 +1,4 @@
+Resumen de actividades Unidad 3
+
+En esta unidad aprendí a usar Git para controlar versiones de mis proyectos y a trabajar con GitHub para guardar mis repositorios en línea. Aprendí a crear repositorios, hacer commits para guardar cambios y usar branches para trabajar en diferentes partes del proyecto sin afectar la rama principal. El uso de branches me ayudó a organizar mejor mis archivos y a mantener el proyecto ordenado.
+Todos los temas me parecieron importantes y no tuve problemas con ello. 

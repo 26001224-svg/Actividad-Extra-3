@@ -1,0 +1,5 @@
+Resumen de actividades Unidad 1 
+
+En esta unidad aprendí sobre la conversión de decimal a binario y el lenguaje ASCCI muy importante para la introducción a la programación.
+Aprendí sobre las proposiciones lógicas y sobre un algoritmo, esto me ayuda a entender sobre el orden y la lógica para poder o entender mejor acerca de la programación o creación por medio de código. 
+Todos los temas me parecieron importantes y no tuve problemas con ello. 

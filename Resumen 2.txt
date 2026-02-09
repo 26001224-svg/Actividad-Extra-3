@@ -1,0 +1,4 @@
+Resumen de actividades Unidad 2
+ 
+En esta unidad aprendí los conceptos básicos de la programación utilizando JavaScript. Aprendí a crear variables con var para guardar información y a usar las estructuras if y else para tomar decisiones según una condición. Estos temas me ayudaron a entender cómo un programa puede reaccionar de manera diferente dependiendo de los datos que reciba.
+Todos los temas me parecieron importantes y no tuve problemas con ello. 
